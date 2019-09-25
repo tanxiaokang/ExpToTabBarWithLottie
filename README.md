@@ -113,5 +113,7 @@ tabbar动画 用 Lottie
     [self setupAnaimationWithTabBarController:tabBarController selectViewController:viewController];
 }
 
+@end
+
 ```
 -------
