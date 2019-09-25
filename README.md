@@ -4,10 +4,8 @@ tabbar动画 用 Lottie
 
 ![实例](https://github.com/tanxiaokang/ExpToTabBarWithLottie/blob/master/exp.gif)
 
-interface
 
-~~~
-
+```
 #import <Lottie/Lottie.h>
 
 @interface CDKTabBarController ()<UITabBarControllerDelegate>
@@ -16,11 +14,13 @@ interface
 @property(nonatomic, strong) LOTAnimationView *animationView;
 
 @end
-~~~
+
+```
+
 
 implementation
 
-~~~
+```
 @implementation CDKTabBarController
 
 
@@ -89,4 +89,4 @@ implementation
     return view;
 }
 
-~~~
+```
